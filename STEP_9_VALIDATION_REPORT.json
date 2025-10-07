@@ -1,0 +1,31 @@
+{
+  "validation_start": "2025-10-07T03:49:19.348243",
+  "stages": {
+    "environment_verification": {
+      "success": true,
+      "duration_seconds": 0.01
+    },
+    "pre_training_state": {
+      "success": true,
+      "duration_seconds": 0.1
+    }
+  },
+  "metrics": {
+    "device": "CPU",
+    "models_before_training": 4,
+    "db_stats_before": {
+      "self_play_positions": 0,
+      "training_metrics": 0,
+      "model_evaluations": 0
+    },
+    "training_session_id": "253ee7a6-2816-4630-8733-f00f07160db3"
+  },
+  "errors": [
+    "Training timeout - took longer than expected",
+    "Training pipeline failed - continuing with verification",
+    "No new models created",
+    "No model available for export"
+  ],
+  "validation_end": "2025-10-07T03:54:24.154331",
+  "total_duration_seconds": 0.11
+}
